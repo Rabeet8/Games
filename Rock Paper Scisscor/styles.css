@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(4, 87, 41);
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  size: cm;
+  /* center me agyi emojis */
+}
+
+.choice {
+  background: none;
+  border: none;
+  outline: none;
+    /* boxes emojis ke peeche se remove hogye */
+  cursor: pointer;
+  font-size: 2rem;
+  transition: 100ms;
+    /* will hover smoothley */
+}
+
+.choice:hover {
+  transform: scale(1.2);
+}
+
+.results {
+  margin-top: 1rem;
+  display: grid;
+  justify-content: center;
+   /* Human or robot center hogya */
+  grid-template-columns: repeat(2, 1fr);
+    /* columns bngye  */
+  justify-items: center;
+  align-items: center;
+}
+

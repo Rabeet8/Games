@@ -1,2 +1,2 @@
 # Games
-This repo contains games build on different languages
+This repo contains games build on HTML,CSS and JS

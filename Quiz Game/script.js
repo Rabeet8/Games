@@ -1,11 +1,11 @@
 const quizData = [
     {
-        question: "What is Pakistan's National animal?",
-        a: "Cheetah",
+        question: "What is Argentina National animal?",
+        a: "European fallow deer",
         b: "Panda",
         c: "Tiger",
         d: "Markhor",
-        correct: "d",
+        correct: "a",
     },
     {
         question: "When JavaScript was created",
@@ -24,20 +24,20 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "1st covid case of Paksitan was reported on",
-        a: "12 feb 2020",
-        b: "26 feb 2020",
-        c: "30 feb 2020",
+        question: "when was 1st computer was invented",
+        a: "1832",
+        b: "1845",
+        c: "1822",
         d: "none of the above",
-        correct: "b",
+        correct: "c",
     },
     {
-        question: "In which year did Pakistan win the world cup",
-        a: "2007",
-        b: "2009",
-        c: "2003",
-        d: "2010",
-        correct: "b",
+        question: "In which year did Austrailia win the world cup",
+        a: "1987",
+        b: "1986",
+        c: "1990",
+        d: "1991",
+        correct: "a",
     },
 
 
@@ -100,7 +100,6 @@ submitBtn.addEventListener('click', () => {
        } else {
            quiz.innerHTML = `
            <h2>You answered ${score}/${quizData.length} questions correctly</h2>
-
            <button onclick="location.reload()">Reload</button>
            `
        }
